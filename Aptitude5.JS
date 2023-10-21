@@ -32,3 +32,12 @@
 
 // Answer: d
 // Explanation: The window.location object can be used to get the current page address (URL) and to redirect the browser to a new page. The parameter location specifies the agent location, speed and browser to use for the test, formatted as location.browser:location.
+
+// 5. How many reserved words are there in JavaScript?
+// a) 63
+// b) 54
+// c) 68
+// d) 90
+
+// Answer: a
+// Explanation: Keywords are reserved words in JavaScript which you cannot use to name the variables labels or function names. There are a total of 63 reserved words in JavaScript.
