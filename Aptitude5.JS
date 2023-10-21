@@ -41,3 +41,6 @@
 
 // Answer: a
 // Explanation: Keywords are reserved words in JavaScript which you cannot use to name the variables labels or function names. There are a total of 63 reserved words in JavaScript.
+
+// 14th Edition – ECMAScript 2023
+// The 14th edition, ECMAScript 2023, was published in June 2023. This version introduces the toSorted , toReversed , with , findLast , and findLastIndex methods on Array.
