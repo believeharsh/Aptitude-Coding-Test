@@ -28,6 +28,27 @@
 // Answer: You can remove the last element from an array using the pop() method. For example:
 
 
+// let arr = [1, 2, 3];
+// arr.pop(4);
+// console.log(arr); // [1, 2, 3, 4]
+
+// Question 5: How do you loop through an array in JavaScript?
+// Answer: You can loop through an array using either a for loop or a forEach() method. For example:
+
+// Using a for loop:
 let arr = [1, 2, 3];
-arr.pop(4);
-console.log(arr); // [1, 2, 3, 4]
+
+for (let i = 0; i < arr.length; i++) {
+
+console.log(arr[i]);
+
+}
+
+// Using the forEach() method:
+let arr1 = [1, 2, 3];
+
+arr1.forEach(function(element) {
+
+console.log(element);
+
+});
