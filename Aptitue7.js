@@ -36,19 +36,34 @@
 // Answer: You can loop through an array using either a for loop or a forEach() method. For example:
 
 // Using a for loop:
+// let arr = [1, 2, 3];
+
+// for (let i = 0; i < arr.length; i++) {
+
+// console.log(arr[i]);
+
+// }
+
+// // Using the forEach() method:
+// let arr1 = [1, 2, 3];
+
+// arr1.forEach(function(element) {
+
+// console.log(element);
+
+// });
+
+// Question 6: How do you check if an element exists in an array?
+// Answer: You can check if an element exists in an array using the indexOf() method. If the element is not found, indexOf() returns -1. For example:
+
 let arr = [1, 2, 3];
 
-for (let i = 0; i < arr.length; i++) {
+if (arr.indexOf(2) !== -1) {
 
-console.log(arr[i]);
+console.log('Element found');
+
+} else {
+
+console.log('Element not found');
 
 }
-
-// Using the forEach() method:
-let arr1 = [1, 2, 3];
-
-arr1.forEach(function(element) {
-
-console.log(element);
-
-});
