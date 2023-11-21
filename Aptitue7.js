@@ -12,3 +12,13 @@
 // let arr = [1, 2, 3, 4];
 // let firstElement = arr[0]; // 1
 // let lastElement = arr[arr.length - 1]; // 4
+
+
+// Question 3: How do you add an element to the end of an array?
+// Answer: You can add an element to the end of an array using the push() method. For example:
+
+// let arr = [1, 2, 3];
+
+// arr.push(4);
+
+// console.log(arr); // [1, 2, 3, 4]
