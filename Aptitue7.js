@@ -22,3 +22,12 @@
 // arr.push(4);
 
 // console.log(arr); // [1, 2, 3, 4]
+
+
+// Question 4: How do you remove the last element from an array?
+// Answer: You can remove the last element from an array using the pop() method. For example:
+
+
+let arr = [1, 2, 3];
+arr.pop(4);
+console.log(arr); // [1, 2, 3, 4]
