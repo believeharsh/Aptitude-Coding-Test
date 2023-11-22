@@ -56,14 +56,24 @@
 // Question 6: How do you check if an element exists in an array?
 // Answer: You can check if an element exists in an array using the indexOf() method. If the element is not found, indexOf() returns -1. For example:
 
-let arr = [1, 2, 3];
+// let arr = [1, 2, 3];
 
-if (arr.indexOf(2) !== -1) {
+// if (arr.indexOf(2) !== -1) {
 
-console.log('Element found');
+// console.log('Element found');
 
-} else {
+// } else {
 
-console.log('Element not found');
+// console.log('Element not found');
 
-}
+// }
+
+// Question 7: How do you remove an element from an array at a specific index?
+// Answer: You can remove an element from an array at a specific index using the splice() method. For example, to remove the element at index 2:
+
+let arr = [1, 2, 3, 4,  5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+let understand = arr.splice(1,5 , 'H' , 'A' , 'R', 'S', 'H');
+console.log(understand)
+
+console.log(arr); // [1, 2]
